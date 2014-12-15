@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temperatures">
+        <item>@string/str_celsius</item>
+        <item>@string/str_fahrenheit</item>
+        <item>@string/str_reaumur</item>
+        <item>@string/str_kelvin</item>
+        <item>@string/str_rankine</item>
+        <item>@string/str_romer</item>
+        <item>@string/str_newton</item>
+    </string-array>
+</resources>

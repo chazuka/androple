@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Konversi Suhu</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_home">Konversi Suhu</string>
+    <string name="str_celsius">Celsius (°C)</string>
+    <string name="str_fahrenheit">Fahrenheit (°F)</string>
+    <string name="str_reaumur">Réaumur (°Ré)</string>
+    <string name="str_kelvin">Kelvin (K)</string>
+    <string name="str_rankine">Rankine (°Ra)</string>
+    <string name="str_newton">Newton (°N)</string>
+    <string name="str_romer">Rømer (°Rø)</string>
+    <string name="str_convert">Konversi Sekarang!</string>
+    <string name="str_from">Dari</string>
+    <string name="str_to">Ke</string>
+    <string name="str_dialog_input_title">Pilih input suhu</string>
+    <string name="str_dialog_output_title">Pilih output suhu</string>
+</resources>

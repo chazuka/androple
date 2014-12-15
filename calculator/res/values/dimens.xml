@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="CDisplayFont">30dp</dimen>
+    <dimen name="CDisplayPadding">10dp</dimen>
+    <dimen name="CBtnPadding">15dp</dimen>
+    <dimen name="CBtnMargin">10dp</dimen>
+    <dimen name="CBtnRoundCorner">5dp</dimen>
+    <dimen name="CBtnFont">25sp</dimen>
+</resources>

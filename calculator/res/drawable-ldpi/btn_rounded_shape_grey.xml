@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" 
+    android:padding="@dimen/CBtnPadding" >
+	<solid android:color="@color/grey"/>
+  	<corners
+   		android:bottomRightRadius="@dimen/CBtnRoundCorner"
+   		android:bottomLeftRadius="@dimen/CBtnRoundCorner"
+   		android:topLeftRadius="@dimen/CBtnRoundCorner"
+   		android:topRightRadius="@dimen/CBtnRoundCorner"/>
+</shape>

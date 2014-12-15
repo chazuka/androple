@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.egois.calculator.HomeActivity" >
+
+    <TextView
+        android:id="@+id/strDisplay"
+        style="@style/CDisplay" />
+
+    <Button
+        android:id="@+id/btnClear"
+        style="@style/CButton"
+        android:layout_below="@+id/strDisplay"
+        android:text="AC" />
+
+    <Button
+        android:id="@+id/btnPercent"
+        style="@style/CButton"
+        android:layout_below="@+id/strDisplay"
+        android:layout_toEndOf="@+id/btnClear"
+        android:layout_toRightOf="@+id/btnClear"
+        android:text="@string/math_percent" />
+    
+    <Button
+        android:id="@+id/btnSqrt"
+        style="@style/CButton"
+        android:layout_below="@+id/strDisplay"
+        android:layout_toEndOf="@+id/btnPercent"
+        android:layout_toRightOf="@+id/btnPercent"
+        android:text="@string/math_sqrt" /> 
+
+    <Button
+        android:id="@+id/btnDivide"
+        style="@style/CButtonRight"
+        android:layout_below="@+id/strDisplay"
+        android:layout_toEndOf="@+id/btnSqrt"
+        android:layout_toRightOf="@+id/btnSqrt"
+        android:text="@string/math_division" />
+
+    <Button
+        android:id="@+id/btnSeven"
+        style="@style/CButton"
+        android:layout_below="@+id/btnClear"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/btnEight"
+        style="@style/CButton"
+        android:layout_below="@+id/btnClear"
+        android:layout_toEndOf="@+id/btnSeven"
+        android:layout_toRightOf="@+id/btnSeven"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/btnNine"
+        style="@style/CButton"
+        android:layout_below="@+id/btnClear"
+        android:layout_toEndOf="@+id/btnEight"
+        android:layout_toRightOf="@+id/btnEight"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        style="@style/CButtonRight"
+        android:layout_below="@+id/btnClear"
+        android:layout_toEndOf="@+id/btnNine"
+        android:layout_toRightOf="@+id/btnNine"
+        android:text="@string/math_multiplication" />
+
+    <Button
+        android:id="@+id/btnFour"
+        style="@style/CButton"
+        android:layout_below="@+id/btnSeven"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/btnFive"
+        style="@style/CButton"
+        android:layout_below="@+id/btnSeven"
+        android:layout_toEndOf="@+id/btnFour"
+        android:layout_toRightOf="@+id/btnFour"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/btnSix"
+        style="@style/CButton"
+        android:layout_below="@+id/btnSeven"
+        android:layout_toEndOf="@+id/btnFive"
+        android:layout_toRightOf="@+id/btnFive"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        style="@style/CButtonRight"
+        android:layout_below="@+id/btnSeven"
+        android:layout_toEndOf="@+id/btnSix"
+        android:layout_toRightOf="@+id/btnSix"
+        android:text="@string/math_substraction" />
+
+    <Button
+        android:id="@+id/btnOne"
+        style="@style/CButton"
+        android:layout_below="@+id/btnFour"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        style="@style/CButton"
+        android:layout_below="@+id/btnFour"
+        android:layout_toEndOf="@+id/btnOne"
+        android:layout_toRightOf="@+id/btnOne"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/btnThree"
+        style="@style/CButton"
+        android:layout_below="@+id/btnFour"
+        android:layout_toEndOf="@+id/btnTwo"
+        android:layout_toRightOf="@+id/btnTwo"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        style="@style/CButtonRight"
+        android:layout_below="@+id/btnFour"
+        android:layout_toEndOf="@+id/btnThree"
+        android:layout_toRightOf="@+id/btnThree"
+        android:text="@string/math_addition" />
+
+    <Button
+        android:id="@+id/btnZero"
+        style="@style/CButton"
+        android:layout_below="@+id/btnOne"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btnDot"
+        style="@style/CButton"
+        android:layout_below="@+id/btnOne"
+        android:layout_toEndOf="@+id/btnZero"
+        android:layout_toRightOf="@+id/btnZero"
+        android:text="." />
+    
+    <Button
+        android:id="@+id/btnPlusMinus"
+        style="@style/CButton"
+        android:layout_below="@+id/btnOne"
+        android:layout_toEndOf="@+id/btnDot"
+        android:layout_toRightOf="@+id/btnDot"
+        android:text="+/-" />
+
+    <Button
+        android:id="@+id/btnEqual"
+        style="@style/CButtonRight"
+        android:layout_below="@+id/btnOne"
+        android:layout_toEndOf="@+id/btnPlusMinus"
+        android:layout_toRightOf="@+id/btnPlusMinus"
+        android:text="=" />
+
+</RelativeLayout>
