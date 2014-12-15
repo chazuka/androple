@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Calculator</string>
+    
+    <string name="math_addition">+</string>
+    <string name="math_substraction">-</string>
+    <string name="math_division">÷</string>
+    <string name="math_multiplication">*</string>
+    <string name="math_sqrt">√</string>
+    <string name="math_squared">x²</string>
+    <string name="math_percent">%</string>
+</resources>

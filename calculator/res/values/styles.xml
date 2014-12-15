@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="CDisplay" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:background">@color/darken_grey</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:padding">@dimen/CDisplayPadding</item>
+        <item name="android:textSize">@dimen/CDisplayFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">right</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    
+    <style name="CButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/CBtnPadding</item>
+        <item name="android:textSize">@dimen/CBtnFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/cbutton</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">@dimen/CBtnMargin</item>
+		<item name="android:layout_marginLeft">@dimen/CBtnMargin</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+    
+    <style name="CButtonRight" parent="@style/CButton">
+        <item name="android:layout_marginRight">@dimen/CBtnMargin</item>
+        <item name="android:background">@drawable/cbutton_right</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+</resources>
